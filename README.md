@@ -1,4 +1,4 @@
-"# fibonacci-sequence-api
+
 
 API สำหรับการคำนวณลำดับฟีโบนัชชี
 
@@ -42,7 +42,4 @@ npm run dev
 http://localhost:3000/v1/test/:memberCount
 ```
 
-ตัวอย่าง:
-```bash
-curl http://localhost:3000/v1/test/:memberCount
-```" 
+
