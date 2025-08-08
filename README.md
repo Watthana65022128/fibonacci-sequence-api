@@ -28,11 +28,6 @@ npm install
 npm start
 ```
 
-#### รันในโหมด Development (พร้อม auto-reload)
-```bash
-npm run dev
-```
-
 แอปพลิเคชันจะรันที่ port เริ่มต้น (โดยทั่วไปคือ port 3000)
 
 ### การทดสอบ API
