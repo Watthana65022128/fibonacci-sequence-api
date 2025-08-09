@@ -19,14 +19,12 @@ cd fibonacci-sequence-api
 npm install
 ```
 
-### การรันแอปพลิเคชัน
-
 #### รัน server
 ```bash
 npm start
 ```
 
-แอปพลิเคชันจะรันที่ port เริ่มต้น (โดยทั่วไปคือ port 3000)
+เซิร์ฟเวอร์จะรันที่ port เริ่มต้น (โดยทั่วไปคือ port 3000)
 
 ## การทดสอบ API
 
