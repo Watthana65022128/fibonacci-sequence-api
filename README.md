@@ -1,5 +1,3 @@
-
-
 API สำหรับการคำนวณลำดับฟีโบนัชชี
 
 ## วิธีการติดตั้งและรัน
@@ -23,7 +21,7 @@ npm install
 
 ### การรันแอปพลิเคชัน
 
-#### รันในโหมด Production
+#### รัน server
 ```bash
 npm start
 ```
@@ -35,6 +33,7 @@ npm start
 เข้าถึง API ผ่าน:
 ```
 http://localhost:3000/v1/test/:memberCount
+Ex:http://localhost:3000/v1/test/5
 ```
 
 
