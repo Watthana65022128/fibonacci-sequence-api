@@ -40,25 +40,25 @@ http://localhost:3000/v1/test/:memberCount
 
 **ตัวอย่างการใช้งาน:**
 ```
-http://localhost:3000/v1/test/5
-http://localhost:3000/v1/test/8
-http://localhost:3000/v1/test/10
+http://localhost:3000/api/v1/test/5
+http://localhost:3000/api/v1/test/8
+http://localhost:3000/api/v1/test/10
 ```
 
 #### 2. ผ่าน curl (Command Line)
 ```bash
 # ทดสอบกรณีปกติ
-curl http://localhost:3000/v1/test/8
+curl http://localhost:3000/api/v1/test/8
 
 # ทดสอบกรณีข้อผิดพลาด
-curl http://localhost:3000/v1/test/0
-curl http://localhost:3000/v1/test/101
-curl http://localhost:3000/v1/test/abc
+curl http://localhost:3000/api/v1/test/0
+curl http://localhost:3000/api/v1/test/101
+curl http://localhost:3000/api/v1/test/abc
 ```
 
 #### 3. ผ่าน Postman หรือ Insomnia
 - Method: GET
-- URL: `http://localhost:3000/v1/test/{memberCount}`
+- URL: `http://localhost:3000/api/v1/test/{memberCount}`
 - แทนที่ `{memberCount}` ด้วยตัวเลข 1-100
 
 ### ตัวอย่างผลลัพธ์
