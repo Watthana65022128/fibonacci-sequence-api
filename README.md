@@ -33,7 +33,12 @@ npm start
 เข้าถึง API ผ่าน:
 ```
 http://localhost:3000/v1/test/:memberCount
-Ex:http://localhost:3000/v1/test/5
 ```
+
+ตัวอย่าง
+```
+http://localhost:3000/v1/test/5
+```
+
 
 
