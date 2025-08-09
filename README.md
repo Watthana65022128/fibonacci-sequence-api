@@ -35,7 +35,7 @@ npm start
 #### 1. ผ่าน Web Browser
 เปิดเบราว์เซอร์และเข้าไปที่:
 ```
-http://localhost:3000/v1/test/:memberCount
+http://localhost:3000/api/v1/test/:memberCount
 ```
 
 **ตัวอย่างการใช้งาน:**
@@ -76,7 +76,7 @@ curl http://localhost:3000/api/v1/test/abc
 ```json
 {
   "error": "Out of range",
-  "message": "Invalid input. Member count must be between 1 and 100."
+  "message": "Member count must be between 1 and 100."
 }
 ```
 
@@ -84,7 +84,7 @@ curl http://localhost:3000/api/v1/test/abc
 ```json
 {
   "error": "Invalid input",
-  "message": "Invalid input. Member count must be an integer."
+  "message": "Member count must be an integer."
 }
 ```
 

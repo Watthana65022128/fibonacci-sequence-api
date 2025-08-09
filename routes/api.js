@@ -10,14 +10,16 @@ router.get('/v1/test/:memberCount', (req, res) => {
   const num = parseInt(memberCount);
   if (isNaN(num) || memberCount.includes('.') || memberCount !== num.toString()) {
     return res.status(400).json({
-      error: 'Invalid input. Member count must be an integer.'
+      message: 'Invalid input',
+      error: 'Member count must be an integer.'
     });
   }
   
   // ตรวจสอบช่วงของตัวเลข (1-100)
   if (num < 1 || num > 100) {
     return res.status(400).json({
-      error: 'Invalid input. Member count must be between 1 and 100.'
+      message: 'Out of range',
+      error: 'Member count must be between 1 and 100.'
     });
   }
   
