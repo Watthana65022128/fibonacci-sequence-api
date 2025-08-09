@@ -41,8 +41,6 @@ http://localhost:3000/api/v1/test/:memberCount
 **ตัวอย่างการใช้งาน:**
 ```
 http://localhost:3000/api/v1/test/5
-http://localhost:3000/api/v1/test/8
-http://localhost:3000/api/v1/test/10
 ```
 
 #### 2. ผ่าน curl (Command Line)
@@ -89,7 +87,7 @@ curl http://localhost:3000/api/v1/test/abc
 ## API Specification
 
 ### Endpoint
-- **URL**: `/v1/test/:memberCount`
+- **URL**: `api/v1/test/:memberCount`
 - **Method**: GET
 - **Parameter**: 
   - `memberCount` (integer): จำนวนสมาชิกในลำดับฟีโบนัชชี (1-100)
