@@ -75,16 +75,14 @@ curl http://localhost:3000/api/v1/test/abc
 #### กรณีข้อผิดพลาด (memberCount นอกช่วง):
 ```json
 {
-  "error": "Out of range",
-  "message": "Member count must be between 1 and 100."
+  "error": "Invalid input. Member count must be between 1 and 100."
 }
 ```
 
 #### กรณีข้อผิดพลาด (memberCount ไม่ใช่ตัวเลข):
 ```json
 {
-  "error": "Invalid input",
-  "message": "Member count must be an integer."
+  "error": "Invalid input. Member count must be an integer."
 }
 ```
 
